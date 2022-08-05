@@ -16,7 +16,16 @@ public class DiamondPattern {
             spaces--;
             System.out.println();
         }
-        spaces = 0;
-
+        spaces = 1;
+        for(int i = 0; i < n-1; i++){
+            for(int j = 0; j < spaces; j++){
+                System.out.print(" ");
+            }
+            for(int j = 2*(n-spaces)-1; j > 0; j--){
+                System.out.print("*");
+            }
+            spaces++;
+            System.out.println();
+        }
     }
 }
