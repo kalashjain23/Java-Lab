@@ -1,5 +1,3 @@
-import javax.swing.plaf.synth.SynthMenuItemUI;
-
 abstract class Residency{
     String name;
     int rNumber;

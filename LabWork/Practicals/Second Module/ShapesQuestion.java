@@ -35,7 +35,7 @@ class Rectangle extends Shape{
         this.breadth = breadth;
     }
     int area(){
-        return (this.length*this.breadth)/2;
+        return (this.length*this.breadth);
     }
 }
 
